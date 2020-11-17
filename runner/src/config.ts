@@ -8,12 +8,12 @@ import type { Config } from './types'
  */
 export const defaultConfig: Config = {
   languages: {
-    js: {
+    javascript: {
       name: 'JavaScript',
       interpreter: 'node',
       interpreter_args: '%file%'
     },
-    ts: {
+    typescript: {
       name: 'TypeScript',
       interpreter: 'node',
       interpreter_args: '-r ts-node/register %file%'
