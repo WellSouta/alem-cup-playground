@@ -28,7 +28,7 @@ jobs:
 
       - name: Upload Binaries
         uses: actions/upload-artifact@v2
-        width:
+        with:
           name: Binary files
           path: runner/dist/*
           if-no-files-found: error
