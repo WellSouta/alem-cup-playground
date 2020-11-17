@@ -1,0 +1,13 @@
+# modules
+node_modules
+
+# build
+dist
+build
+
+# logs
+*.log
+
+# temporary files
+.temp
+data
